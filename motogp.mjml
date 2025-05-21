@@ -21,7 +21,7 @@
         </mj-column>
 
         <mj-column width="50%">
-            <mj-image src="img/circuito-cheste.png" width="1000px" />
+            <mj-image src="img/circuito-cheste.png" width="500px" />
             <mj-text mj-class="mgptext" align="center">CIRCUITO DE CHESTE</mj-text>
         </mj-column>
     </mj-section>
