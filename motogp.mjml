@@ -1,0 +1,124 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-class name="mgptext" font-family="MotoGP Text" font-size="15px" color="white"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+    <mj-section  background-color="white">
+        <mj-column width="100%">
+            <mj-image src="img/head.png" width="1000px"  />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black">
+        <mj-column width="50%">
+            <mj-text mj-class="mgptext">GANA 2 ENTRADAS</mj-text>
+            <mj-text mj-class="mgptext">TOTALMENTE GRATUITAS</mj-text>
+        <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
+            <mj-text mj-class="mgptext">SOLAMENTE RELLENANDO</mj-text>
+            <mj-text mj-class="mgptext">EL SIGUIENTE FORMULARIO</mj-text>
+        </mj-column>
+
+        <mj-column width="50%">
+            <mj-image src="img/circuito-cheste.png" width="1000px" />
+            <mj-text mj-class="mgptext">CIRCUITO DE CHESTE</mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section  background-color="white">
+        <mj-column width="100%">
+            <mj-text align="center" font-family="MotoGP Text" font-size="20px" >FORMULARIO</mj-text>
+            <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
+        </mj-column>
+
+
+        <mj-column width="50%">
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
+                <mj-text align="center">NOMBRE </mj-text>
+            </mj-button>
+            <mj-button background-color="#ff701e" color="white" width="200px">
+                <mj-text align="center">TELEFONO</mj-text>
+            </mj-button>
+        </mj-column>
+
+        <mj-column width="50%">
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
+                <mj-text align="center">APELLIDOS</mj-text>
+            </mj-button>
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
+                <mj-text align="center">CORREO</mj-text>
+            </mj-button>
+        </mj-column>
+
+                <mj-column width="50%">
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
+                <mj-text align="center">CIUDAD</mj-text>
+            </mj-button>
+
+        </mj-column>
+
+        <mj-column width="50%">
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
+                <mj-text align="center">EDAD</mj-text>
+            </mj-button>
+        </mj-column>
+
+    </mj-section>
+
+    <mj-section  background-color="black">
+        <mj-column width="100%">
+            <mj-text mj-class="mgptext" align="center" font-size="20px" >GALERIA</mj-text>
+            <mj-divider border-color="#ff701e" border-width="2px" border-style="solid"/>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="black" background-color="#fbfbfb">
+        <mj-column>
+            <mj-image width="200px" src="img/1.jpeg" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="200px" src="img/1.jpeg" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="200px" src="img/1.jpeg" />
+        </mj-column>
+    </mj-section>
+
+<mj-section  background-color="white">
+        <mj-column width="100%">
+            <mj-text align="center" font-family="MotoGP Text" font-size="20px" >¡ RECIBE NUESTRA NEWSLETTER !</mj-text>
+            <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
+        </mj-column>
+
+
+        <mj-column width="100%">
+            <mj-button mj-class="mgptext" background-color="#ff701e" width="300px">
+                <mj-text align="center"> PON TU CORREO </mj-text>
+            </mj-button>
+        </mj-column>
+
+    </mj-section>
+
+    <mj-section  background-color="black">
+        <mj-column width="100%">
+            <mj-image width="200px" src="img/motogp-logo-white.jpeg" />
+            <mj-divider border-color="#ff701e" border-width="2px" border-style="solid"/>
+            <mj-text mj-class="mgptext" align="center" font-size="20px">PATROCINADORES OFICIALES</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="black" background-color="#fbfbfb">
+        <mj-column>
+            <mj-image width="200px" src="img/DHL-Logo.png" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="200px" src="img/Michelin-Logo-300x169.png" />
+        </mj-column>
+
+        <mj-column>
+            <mj-image width="200px" src="img/redbullenergydrink.svg" />
+        </mj-column>
+    </mj-section>
+</mjml>
