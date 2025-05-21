@@ -22,7 +22,7 @@
 
         <mj-column width="50%">
             <mj-image src="img/circuito-cheste.png" width="1000px" />
-            <mj-text mj-class="mgptext">CIRCUITO DE CHESTE</mj-text>
+            <mj-text mj-class="mgptext" align="center">CIRCUITO DE CHESTE</mj-text>
         </mj-column>
     </mj-section>
 
@@ -74,19 +74,19 @@
     </mj-section>
     <mj-section background-color="black" background-color="#fbfbfb">
         <mj-column>
-            <mj-image width="200px" src="img/1.jpeg" />
+            <mj-image width="200px" src="img/iann.jpg" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/1.jpeg" />
+            <mj-image width="200px" src="img/hand.jpg" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/1.jpeg" />
+            <mj-image width="200px" src="img/marc.jpg" />
         </mj-column>
     </mj-section>
 
-<mj-section  background-color="white">
+    <mj-section  background-color="white">
         <mj-column width="100%">
             <mj-text align="center" font-family="MotoGP Text" font-size="20px" >¡ RECIBE NUESTRA NEWSLETTER !</mj-text>
             <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
@@ -121,4 +121,8 @@
             <mj-image width="200px" src="img/redbullenergydrink.svg" />
         </mj-column>
     </mj-section>
+    <mj-section  background-color="white">
+        <mj-column width="100%">
+            <mj-image width="600px" src="img/feria2.png" />
+        </mj-column>
 </mjml>
