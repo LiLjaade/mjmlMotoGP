@@ -7,7 +7,7 @@
     <mj-body>
     <mj-section  background-color="white">
         <mj-column width="100%">
-            <mj-image src="img/head.png" width="1000px"  />
+            <mj-image src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/head.png" width="1000px"  />
         </mj-column>
     </mj-section>
 
@@ -21,7 +21,7 @@
         </mj-column>
 
         <mj-column width="50%">
-            <mj-image src="img/circuito-cheste.png" width="500px" />
+            <mj-image src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/circuito-cheste.png" width="500px" />
             <mj-text mj-class="mgptext" align="center">CIRCUITO DE CHESTE</mj-text>
         </mj-column>
     </mj-section>
@@ -74,15 +74,15 @@
     </mj-section>
     <mj-section background-color="black" background-color="#fbfbfb">
         <mj-column>
-            <mj-image width="200px" src="img/iann.jpg" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/iann.jpg" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/hand.jpg" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/hand.jpg" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/marc.jpg" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/marc.jpg" />
         </mj-column>
     </mj-section>
 
@@ -103,26 +103,27 @@
 
     <mj-section  background-color="black">
         <mj-column width="100%">
-            <mj-image width="200px" src="img/motogp-logo-white.jpeg" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/motogp-logo-white.jpeg" />
             <mj-divider border-color="#ff701e" border-width="2px" border-style="solid"/>
             <mj-text mj-class="mgptext" align="center" font-size="20px">PATROCINADORES OFICIALES</mj-text>
         </mj-column>
     </mj-section>
     <mj-section background-color="black" background-color="#fbfbfb">
         <mj-column>
-            <mj-image width="200px" src="img/DHL-Logo.png" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/DHL-Logo.png" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/Michelin-Logo-300x169.png" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/Michelin-Logo-300x169.png" />
         </mj-column>
 
         <mj-column>
-            <mj-image width="200px" src="img/redbullenergydrink.svg" />
+            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/592f0f436de327f77f9c0903df70bd3de3494322/img/redbullenergydrink.svg" />
         </mj-column>
+        
     </mj-section>
     <mj-section  background-color="white">
         <mj-column width="100%">
-            <mj-image width="600px" src="img/feria2.png" />
+            <mj-image width="600px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/feria2.png" />
         </mj-column>
 </mjml>
