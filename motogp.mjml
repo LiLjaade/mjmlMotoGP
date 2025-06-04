@@ -4,126 +4,106 @@
             <mj-class name="mgptext" font-family="MotoGP Text" font-size="15px" color="white"/>
         </mj-attributes>
     </mj-head>
-    <mj-body>
-    <mj-section  background-color="white">
-        <mj-column width="100%">
-            <mj-image src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/head.png" width="1000px"  />
-        </mj-column>
-    </mj-section>
+    <mj-body background-color="#eaeaea">
+        <mj-section  background-color="white">
+            <mj-column width="100%">
+                <mj-image src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/head.png" width="1000px"  />
+                <mj-text font-size="24px" font-weight="bold" color="#333333" align="center" padding="10px 25px">¡Hola, {{nombreCliente}}!</mj-text>
+            </mj-column>
+        </mj-section>
 
-    <mj-section background-color="black">
-        <mj-column width="50%">
-            <mj-text mj-class="mgptext">GANA 2 ENTRADAS</mj-text>
-            <mj-text mj-class="mgptext">TOTALMENTE GRATUITAS</mj-text>
-        <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
-            <mj-text mj-class="mgptext">SOLAMENTE RELLENANDO</mj-text>
-            <mj-text mj-class="mgptext">EL SIGUIENTE FORMULARIO</mj-text>
-        </mj-column>
+        <mj-section background-color="black">
+            <mj-column width="50%">
+                <mj-text font-size="25px" font-family="MotoGP Text" color="#e8343c">GANA 2 ENTRADAS</mj-text>
+                <mj-text font-size="19px" font-family="MotoGP Text" color="#e8343c">TOTALMENTE GRATUITAS</mj-text>
+            <mj-divider border-color="#e8343c" border-width="2px" border-style="dashed"/>
+                <mj-text mj-class="mgptext">SOLAMENTE RELLENANDO</mj-text>
+                <mj-text mj-class="mgptext">EL SIGUIENTE FORMULARIO</mj-text>
+            </mj-column>
 
-        <mj-column width="50%">
-            <mj-image src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/circuito-cheste.png" width="500px" />
-            <mj-text mj-class="mgptext" align="center">CIRCUITO DE CHESTE</mj-text>
-        </mj-column>
-    </mj-section>
+            <mj-column width="50%">
+                <mj-image src="img/circuito-cheste.png" width="500px" />
+                <mj-text mj-class="mgptext" align="center">CIRCUITO DE CHESTE</mj-text>
+            </mj-column>
+        </mj-section>
 
-    <mj-section  background-color="white">
-        <mj-column width="100%">
-            <mj-text align="center" font-family="MotoGP Text" font-size="20px" >FORMULARIO</mj-text>
-            <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
-        </mj-column>
-
-
-        <mj-column width="50%">
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
-                <mj-text align="center">NOMBRE </mj-text>
-            </mj-button>
-            <mj-button background-color="#ff701e" color="white" width="200px">
-                <mj-text align="center">TELEFONO</mj-text>
-            </mj-button>
-        </mj-column>
-
-        <mj-column width="50%">
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
-                <mj-text align="center">APELLIDOS</mj-text>
-            </mj-button>
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
-                <mj-text align="center">CORREO</mj-text>
-            </mj-button>
-        </mj-column>
-
-                <mj-column width="50%">
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
-                <mj-text align="center">CIUDAD</mj-text>
-            </mj-button>
-
-        </mj-column>
-
-        <mj-column width="50%">
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="200px">
-                <mj-text align="center">EDAD</mj-text>
-            </mj-button>
-        </mj-column>
-
-    </mj-section>
-
-    <mj-section  background-color="black">
-        <mj-column width="100%">
-            <mj-text mj-class="mgptext" align="center" font-size="20px" >GALERIA</mj-text>
-            <mj-divider border-color="#ff701e" border-width="2px" border-style="solid"/>
-        </mj-column>
-    </mj-section>
-    <mj-section background-color="black" background-color="#fbfbfb">
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/iann.jpg" />
-        </mj-column>
-
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/hand.jpg" />
-        </mj-column>
-
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/marc.jpg" />
-        </mj-column>
-    </mj-section>
-
-    <mj-section  background-color="white">
-        <mj-column width="100%">
-            <mj-text align="center" font-family="MotoGP Text" font-size="20px" >¡ RECIBE NUESTRA NEWSLETTER !</mj-text>
-            <mj-divider border-color="#ff701e" border-width="2px" border-style="dashed"/>
-        </mj-column>
+        <mj-section  background-color="white">
+            <mj-column width="100%">
+                <mj-text align="center"  font-family="MotoGP Text" font-size="30px" >FORMULARIO</mj-text>
+                <mj-divider border-color="#e8343c" border-width="2px" border-style="dashed"/>
+            </mj-column>
 
 
-        <mj-column width="100%">
-            <mj-button mj-class="mgptext" background-color="#ff701e" width="300px">
-                <mj-text align="center"> PON TU CORREO </mj-text>
-            </mj-button>
-        </mj-column>
+            <mj-column width="100%">
+                <mj-text align="center" font-family="MotoGP Text" font-size="20px">Dale click al botón de aquí abajo para rellenar el formulario y participar en el <span style="color:red">sorteo de las dos entradas</span></mj-text>
+                    <mj-button href="https://dosruedas.feriavalencia.com/" mj-class="mgptext" background-color="#e8343c" width="200px">
+                        <mj-text align="center">¡ HAZ CLICK AQUI !</mj-text>
+                    </mj-button>
+                <mj-text font-size="25px" font-family="MotoGP Text" color="#e8343c" align="center">VIVE LA EXPERIENCIA DE MANERA GRATUITA</mj-text>
+            </mj-column>
 
-    </mj-section>
+        </mj-section>
 
-    <mj-section  background-color="black">
-        <mj-column width="100%">
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/motogp-logo-white.jpeg" />
-            <mj-divider border-color="#ff701e" border-width="2px" border-style="solid"/>
-            <mj-text mj-class="mgptext" align="center" font-size="20px">PATROCINADORES OFICIALES</mj-text>
-        </mj-column>
-    </mj-section>
-    <mj-section background-color="black" background-color="#fbfbfb">
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/DHL-Logo.png" />
-        </mj-column>
+        <mj-section  background-color="black">
+            <mj-column width="100%">
+                <mj-text mj-class="mgptext" align="center" font-size="20px" >GALERIA</mj-text>
+                <mj-divider border-color="#e8343c" border-width="2px" border-style="solid"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="black" background-color="#fbfbfb">
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/iann.jpg" />
+            </mj-column>
 
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/Michelin-Logo-300x169.png" />
-        </mj-column>
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/hand.jpg" />
+            </mj-column>
 
-        <mj-column>
-            <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/592f0f436de327f77f9c0903df70bd3de3494322/img/redbullenergydrink.svg" />
-        </mj-column>
-        
-    </mj-section>
-    <mj-section  background-color="white">
-        <mj-column width="100%">
-            <mj-image width="600px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/feria2.png" />
-        </mj-column>
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/marc.jpg" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section  background-color="white">
+            <mj-column width="100%">
+                <mj-text align="center" font-family="MotoGP Text" font-size="20px" >¡ RECIBE NUESTRA NEWSLETTER !</mj-text>
+                <mj-divider border-color="#e8343c" border-width="2px" border-style="dashed"/>
+            </mj-column>
+
+
+            <mj-column width="100%">
+                <mj-button mj-class="mgptext" background-color="#e8343c" width="300px">
+                    <mj-text align="center"> PON TU CORREO </mj-text>
+                </mj-button>
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section  background-color="black">
+            <mj-column width="100%">
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/motogp-logo-white.jpeg" />
+                <mj-divider border-color="#e8343c" border-width="2px" border-style="solid"/>
+                <mj-text mj-class="mgptext" align="center" font-size="20px">PATROCINADORES OFICIALES</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="black" background-color="#fbfbfb">
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/DHL-Logo.png" />
+            </mj-column>
+
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/refs/heads/main/img/Michelin-Logo-300x169.png" />
+            </mj-column>
+
+            <mj-column>
+                <mj-image width="200px" src="https://raw.githubusercontent.com/LiLjaade/mjml/592f0f436de327f77f9c0903df70bd3de3494322/img/redbullenergydrink.svg" />
+            </mj-column>
+            
+        </mj-section>
+        <mj-section  background-color="white">
+            <mj-column width="100%">
+                <mj-image width="600px" src="img/Cabecera_mail_2Ruedas_2024_expositores.jpg" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
 </mjml>
